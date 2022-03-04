@@ -11,6 +11,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: apache/arrow
+          ref: d46417dc171f111ea9869f1a5db330bd0d259485
           submodules: true
           fetch-depth: 0
       # this is temporary: once rust is removed from `apache/arrow`, we are good to go.
